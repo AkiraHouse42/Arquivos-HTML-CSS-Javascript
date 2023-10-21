@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(orangered,yellow);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.central{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.central button{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.central input{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}
+
